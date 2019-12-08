@@ -1,0 +1,23 @@
+@mixin obramowanie($szerokosc, $wypelnienie, $color, $kolor_tla) {
+    border: $szerokosc $wypelnienie $color;
+    color: white;
+    background: $kolor_tla;
+}
+
+@mixin wielkosc_testu($wielkosc) {
+    font-size: $wielkosc;
+}
+
+@mixin odstep($a, $b, $c, $d) {
+    margin:$a $b $c $d;
+    padding: $c $b $a $d;
+}
+
+.box { 
+    @include obramowanie(3px, solid, green, blue); 
+    @include odstep(10px, 20px, 5px, 10px); 
+}
+h1 {
+    @include obramowanie(1px, dotted, red, aqua);
+    @include wielkosc_testu(60px);
+}

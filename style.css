@@ -1,0 +1,58 @@
+.btn-success, .btn-danger, .btn-primary {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-success {
+  background: green;
+}
+
+.btn-danger {
+  background: #920303;
+}
+
+.btn-primary {
+  background: #1d2ba8;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  color: #27ca27;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul .tytul {
+  color: #28aad1;
+}
+
+ul li a {
+  text-decoration: none;
+  cursor: crosshair;
+}
+
+.box {
+  border: 3px solid green;
+  color: white;
+  background: blue;
+  margin: 10px 20px 5px 10px;
+  padding: 5px 20px 10px 10px;
+}
+
+h1 {
+  border: 1px dotted red;
+  color: white;
+  background: aqua;
+  font-size: 60px;
+}
+/*# sourceMappingURL=style.css.map */

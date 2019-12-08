@@ -1,0 +1,25 @@
+$niebieski: rgb(40, 170, 209);
+$zielony: rgb(39, 202, 39);
+
+body {
+    margin: 0;
+}
+
+h1 {
+    color: $zielony;
+}
+
+ul {
+    list-style-type: none;
+    .tytul {
+        color: $niebieski;
+    } 
+    li {
+        a {
+            text-decoration: none;
+            cursor: crosshair;
+        }
+    }
+}
+
+ 

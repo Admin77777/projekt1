@@ -1,0 +1,24 @@
+%btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-success {
+    @extend %btn;
+    background: green;
+}
+
+.btn-danger {
+    @extend %btn;
+    background: rgb(146, 3, 3);
+}
+
+.btn-primary {
+    @extend %btn;
+    background: rgb(29, 43, 168);
+}
